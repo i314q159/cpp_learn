@@ -1,6 +1,7 @@
 #include "a.h"
 
 int main() {
-    a();
+    Test t1;
+    t1.a();
     return 0;
 }

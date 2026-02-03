@@ -2,14 +2,13 @@
 
 #include <iostream>
 
-void a() {
-    auto x = 1;
-
+void Test::a() const {
     auto add1 = [](auto a, auto b) -> auto {
         return a + b - a;
     };
 
     for (auto i = 'a'; i <= 'z'; i++) {
+        auto x = 1;
         auto sum1 = add1(x, i);
 
         // std::string(1, i) 是创建一个包含1个字符 i 的字符串
@@ -17,4 +16,9 @@ void a() {
         auto str1 = std::string(1, i) + ":" + std::to_string(sum1);
         std::cout << str1 << std::endl;
     }
+    b();
+}
+
+void Test::b() const {
+    std::cout << "Test::b" << std::endl;
 }
