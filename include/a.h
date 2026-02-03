@@ -3,10 +3,10 @@
 
 class Test {
 public:
-    void a() const;
+    void a();
 
 private:
-    void b() const;
+    void b();
 };
 
 #endif //CPP_LEARN_A_H

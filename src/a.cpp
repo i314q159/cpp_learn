@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-void Test::a() const {
+void Test::a() {
     auto add1 = [](auto a, auto b) -> auto {
         return a + b - a;
     };
@@ -19,6 +19,6 @@ void Test::a() const {
     b();
 }
 
-void Test::b() const {
+void Test::b() {
     std::cout << "Test::b" << std::endl;
 }
