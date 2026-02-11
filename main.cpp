@@ -1,7 +1,7 @@
 #include "a.h"
 #include "b.h"
 
-int main() {
+auto main() -> int {
     Test t1;
     t1.a();
 

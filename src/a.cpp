@@ -3,7 +3,7 @@
 #include <iostream>
 #include <map>
 
-void Test::a() {
+auto Test::a() -> void{
     auto add1 = [](auto a, auto b) -> auto { return a + b - a; };
 
     std::map<std::string, int> map_A;
@@ -22,6 +22,6 @@ void Test::a() {
     b();
 }
 
-void Test::b() {
+auto Test::b() -> void{
     std::cout << "Test::b" << std::endl;
 }

@@ -2,6 +2,6 @@
 
 #include <iostream>
 
-void b() {
+auto b() -> void {
     std::cout << "b.cpp" << std::endl;
 }
