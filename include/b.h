@@ -1,6 +1,6 @@
 #ifndef B_H
 #define B_H
 
-void b();
+auto b() -> void;
 
 #endif //B_H
