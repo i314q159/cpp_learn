@@ -1,4 +1,7 @@
 cmake-build-debug/
 build/
+lib/
 .idea/
 .vscode/
+.project
+.cproject
