@@ -2,8 +2,8 @@
 #include "b.h"
 
 auto main() -> int {
-    Test t1;
-    t1.a();
+    // Test t1;
+    // t1.a();
 
     b();
     return 0;

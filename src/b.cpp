@@ -2,6 +2,16 @@
 
 #include <iostream>
 
+using namespace std;
+
 auto b() -> void {
-    std::cout << "b.cpp" << std::endl;
+    int x = 20;
+    int *y;
+    y = &x;
+
+    cout << "x address: " << &x << endl;
+    cout << "y address: " << y << endl;
+
+    cout << "x: " << x << endl;
+    cout << "y: " << *y << endl;
 }
