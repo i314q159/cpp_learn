@@ -3,4 +3,4 @@
 
 auto b() -> void;
 
-#endif //B_H
+#endif // B_H

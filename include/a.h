@@ -3,10 +3,10 @@
 
 class Test {
 public:
-    auto a() -> void;
+  auto a() -> void;
 
 private:
-    auto b() -> void;
+  auto b() -> void;
 };
 
-#endif //A_H
+#endif // A_H
