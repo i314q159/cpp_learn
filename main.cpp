@@ -1,10 +1,8 @@
-#include "a.h"
-#include "b.h"
+#include <iostream>
+
+using namespace std;
 
 auto main() -> int {
-  // Test t1;
-  // t1.a();
-
-  b();
+  cout << "cpp_learn" << endl;
   return 0;
 }
