@@ -1,9 +1,9 @@
 #include "a.h"
 
 auto main() -> int {
-  Test t1;
+    Test t1;
 
-  t1.a();
+    t1.a();
 
-  return 0;
+    return 0;
 }

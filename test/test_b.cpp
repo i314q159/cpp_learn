@@ -1,7 +1,7 @@
 #include "b.h"
 
 auto main() -> int {
-  b();
+    b();
 
-  return 0;
+    return 0;
 }
